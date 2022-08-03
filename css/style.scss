@@ -371,13 +371,22 @@ body {
   }
 }
 @media screen and (max-width: 992px) {
+  .carousel-inner {
+    position: relative;
+    top: 500px;
+  }
   .content-title {
     width: 35% !important;
-    margin: auto !important;
+    // margin: auto !important;
+    margin-top: 40px;
   }
 }
 
 @media screen and (max-width: 567px) {
+  .carousel-inner {
+    position: relative;
+    top: 850px;
+  }
   .content-title {
     width: 60% !important;
     margin: auto !important;
@@ -512,11 +521,22 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .fooder {
+    position: relative;
+    top: 1600px;
+    height: 110%;
+    .address {
+      width: 80% !important;
+    }
+  }
+}
+
 @media screen and (max-width: 567px) {
   .fooder {
     position: relative;
-    top: 1900px;
-    height: 170%;
+    top: 2500px;
+    height: 290%;
     .address {
       width: 80% !important;
     }
